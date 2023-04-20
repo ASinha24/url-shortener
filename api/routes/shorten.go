@@ -6,11 +6,12 @@ import (
 	"time"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/asinha24/url-shortener/api/database"
-	"github.com/asinha24/url-shortener/api/helpers"
 	"github.com/go-redis/redis/v8"
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
+
+	"github.com/asinha24/url-shortener/api/database"
+	"github.com/asinha24/url-shortener/api/helpers"
 )
 
 type request struct {
